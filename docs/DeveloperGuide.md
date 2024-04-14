@@ -35,6 +35,8 @@ title: Developer Guide
   * [**Appendix: Instructions for manual testing**](#appendix-instructions-for-manual-testing)
 <!-- TOC -->
 
+<div style="page-break-after: always;"></div>
+
 ## **Acknowledgements**
 
 * The formatting for the developer guide is inspired by [AB-3](https://se-education.org/addressbook-level3/DeveloperGuide.html).
@@ -457,11 +459,21 @@ intuitive command-line commands, saving time and improving efficiency.
 ## Glossary
 
 * *PID (Product ID)* - A unique number assigned to each product for identification purposes.
-* Mainstream OS: Windows, Linux, Unix, macOS
+* *Mainstream OS* - Windows, Linux, Unix, macOS
 
 --------------------------------------------------------------------------------------------------------------------
 
 ## **Appendix: Instructions for manual testing**
+
+**Viewing Help page**
+1. No prerequisites needed. <br><br>
+
+2. Test case 1: `help inflow`<br>
+   Expected: Help page for `inflow command` will be printed out.<br><br> 
+
+   Test case 2: `help bleh`<br>
+   Expected: ```Invalid command. For more information on the commands, use `help`.```
+   will be printed out as `bleh` in an invalid command keyword.
 
 **Adding a Product**
 
@@ -479,7 +491,7 @@ intuitive command-line commands, saving time and improving efficiency.
 
 **Editing Product Details**
 
-1. Prerequisites: List all products using `list` command. There should be at least multiple products in the list. <br><br>
+1. Prerequisites: List all products using `list` command. There should be at least 2 products in the list. <br><br>
 
 2. Test case 1: `edit 1 n/Updated name d/Updated description`<br>
    Expected: The name and description of the product with Product ID (PID) 1 will be changed to `Updated name` and `Updated description` respectively. <br><br>

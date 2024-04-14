@@ -150,6 +150,8 @@ Format: `help [COMMAND]`
 e.g. <code>help</code> will be considered the same as <code>HELP</code> and <code>hELP</code>.
 </div>
 
+<div style="page-break-after: always;"></div>
+
 ### Example 1
 Input:
 
@@ -305,7 +307,7 @@ Description: [X]
 <!--- @@author Kobot7 --->
 ## Editing Product Details: `edit`
 
-Edits an existing product in the inventory at the specific PID by the input value(s).
+Edits details of an existing product in the inventory.
 
 Format: 
 ```
