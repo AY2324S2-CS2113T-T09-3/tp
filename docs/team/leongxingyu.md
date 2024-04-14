@@ -58,12 +58,14 @@ Added documentation for the features `inflow` and `outflow`.
 [#89](https://github.com/AY2324S2-CS2113T-T09-3/tp/pull/89)
 
 ### Contributions to the DG
-Added documentations for the features `inflow` and `outflow`
+Added documentations for the features `inflow` and `outflow`.
+Added sequence diagrams for the respective features as well.
 [#76](https://github.com/AY2324S2-CS2113T-T09-3/tp/pull/76)
 
 ### Contributions to Team-based Tasks
 - Updating UG and DG documents
     - Helped with updating Product Scope.
+- Created Demo Video to showcase project features
 
 ### Contribution Beyond the Project Team
 - Reported a high number of bugs in the PE-D (Top 10%)
