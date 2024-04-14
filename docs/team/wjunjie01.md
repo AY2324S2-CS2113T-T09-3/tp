@@ -46,7 +46,7 @@ Added documentation details for list, and it's sorting features.
 [#91](https://github.com/AY2324S2-CS2113T-T09-3/tp/pull/91)
 
 ### Contributions to the DG
-Added documentation details for list, and it's sorting features.
+Added documentation details and sequence diagram for list, and it's sorting features.
 [#177](https://github.com/AY2324S2-CS2113T-T09-3/tp/pull/177) 
 
 ### Contributions to team-based tasks
