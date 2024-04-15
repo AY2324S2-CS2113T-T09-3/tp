@@ -6,5 +6,5 @@ Description: Lists all products containing KEYWORD.
 Usage: find KEYWORD
 
 Options:
-KEYWORD               Keyword to search for in product name. Keyword is case sensitive.
+KEYWORD               Keyword to search for in product name.
 ====================================================================================

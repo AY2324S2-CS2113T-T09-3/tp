@@ -15,7 +15,8 @@ DESCRIPTION           Description of the product
 Command: edit
 
 Description: Edits an existing product in the inventory.
-             Note that at least 1 flag is required when using the edit command.
+             Note that at least 1 of the following fields (PRODUCT_NAME, QUANTITY,
+             PRICE, DESCRIPTION) must be provided when using the edit command.
 
 Usage: edit PID [n/PRODUCT_NAME] [q/QUANTITY] [p/PRICE] [d/DESCRIPTION]
 
@@ -62,7 +63,7 @@ Description: Lists all products containing KEYWORD.
 Usage: find KEYWORD
 
 Options:
-KEYWORD               Keyword to search for in product name. Keyword is case sensitive.
+KEYWORD               Keyword to search for in product name.
 ====================================================================================
 Command: list
 

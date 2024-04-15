@@ -21,7 +21,8 @@ import java.util.logging.Logger;
 public class EditCommand extends ListActionCommand {
     public static final String COMMAND_KEYWORD = "edit";
     public static final String COMMAND_DESCRIPTION = "Edits an existing product in the inventory.\n" +
-            "Note that at least 1 flag is required when using the edit command.";
+            "Note that at least 1 of the following fields (PRODUCT_NAME, QUANTITY,\n" +
+            "PRICE, DESCRIPTION) must be provided when using the edit command.";
     public static final String COMMAND_USAGE = "edit PID [n/PRODUCT_NAME] [q/QUANTITY] [p/PRICE] [d/DESCRIPTION]";
 
     public static final String[] COMMAND_FLAGS = {
